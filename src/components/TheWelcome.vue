@@ -14,8 +14,8 @@ import IconMore from './icons/IconMore.vue'
     The official documentation for
     <a target="_blank" href="https://electronjs.org/">Electron</a>,
     <a target="_blank" href="https://cn.vitejs.dev/">Vite</a>,
-    <a target="_blank" href="https://staging-cn.vuejs.org/">Vue 3</a> gives you all the information you need to get
-    started.
+    <a target="_blank" href="https://staging-cn.vuejs.org/">Vue 3</a> gives you all the information
+    you need to get started.
   </WelcomeItem>
 
   <WelcomeItem>
@@ -26,7 +26,9 @@ import IconMore from './icons/IconMore.vue'
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite</a>, using
-    <a href="https://github.com/electron-userland/electron-builder" target="_black">electron-builder</a>
+    <a href="https://github.com/electron-userland/electron-builder" target="_black"
+      >electron-builder</a
+    >
     to build desktop applications. The recommended IDE setup is
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>.
