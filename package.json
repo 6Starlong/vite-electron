@@ -1,0 +1,64 @@
+{
+  "name": "vite-electron",
+  "version": "0.1.0",
+  "author": "Starlong",
+  "main": "electron/main.js",
+  "repository": "https://github.com/6Starlong/vite-electron.git",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "app:build": "npm run build && npx electron-builder"
+  },
+  "dependencies": {
+    "any-touch": "^2.1.1",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "electron": "^18.0.4",
+    "electron-builder": "^23.0.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.9.1",
+    "vite-plugin-electron": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "build": {
+    "appId": "com.my-website.my-app",
+    "productName": "MyApp",
+    "copyright": "Copyright © 2022 ${author}",
+    "win": {
+      "icon": "./public/electron.ico"
+    },
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "files": [
+      "!node_modules",
+      "dist/build/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "buildResources": "src/assetc",
+      "output": "dist"
+    }
+  },
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ]
+}
