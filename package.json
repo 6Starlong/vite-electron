@@ -33,7 +33,7 @@
   "build": {
     "appId": "com.my-website.my-app",
     "productName": "MyApp",
-    "copyright": "Copyright © 2022 ${author}",
+    "copyright": "Copyright © 2022 Starlong",
     "win": {
       "icon": "./public/electron.ico"
     },

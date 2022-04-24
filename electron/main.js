@@ -18,13 +18,13 @@ const createWindow = () => {
 
   if (app.isPackaged) {
     // 生产配置
-    const indexPath = '../dist/build'
+    const indexPath = '../dist/build' // 基于路径 electron/main.js
     win.setIcon(join(__dirname, indexPath, '/favicon.ico'))
     // 加载文件
     win.loadFile(join(__dirname, indexPath, '/index.html'))
   } else {
     // 开发配置
-    win.setIcon(join('./dist/build/favicon.ico'))
+    win.setIcon(join('./public/favicon.ico'))
     // 加载url
     win.loadURL('http://127.0.0.1:3000')
 
