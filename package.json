@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "app:build": "npm run build && npx electron-builder"
+    "app:build": "npm run build && electron-builder"
   },
   "dependencies": {
     "any-touch": "^2.1.1",
