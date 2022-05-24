@@ -4,7 +4,6 @@ specifiers:
   '@rushstack/eslint-patch': ^1.1.0
   '@vitejs/plugin-vue': ^2.3.1
   '@vue/eslint-config-prettier': ^7.0.0
-  any-touch: ^2.1.1
   electron: ^18.0.4
   electron-builder: ^23.0.3
   eslint: ^8.5.0
@@ -15,7 +14,6 @@ specifiers:
   vue: ^3.2.31
 
 dependencies:
-  any-touch: 2.1.1
   vue: 3.2.33
 
 devDependencies:
@@ -35,80 +33,6 @@ packages:
   /7zip-bin/5.1.1:
     resolution: {integrity: sha512-sAP4LldeWNz0lNzmTird3uWfFDWWTeg6V/MsmyyLR9X1idwKBWIgt/ZvinqQldJm3LecKEs1emkbquO6PCiLVQ==}
     dev: true
-
-  /@any-touch/compute/2.1.1:
-    resolution: {integrity: sha512-cPcJScScdoO+hojY9fSUC75lS17D5hpi+2ZLBBbIuX32UteLfhlcNKVgmIuQf5fPe//O+0BQTZ0YPMRDJtQbQw==}
-    dependencies:
-      '@any-touch/shared': 2.1.1
-      '@any-touch/vector': 2.1.1
-      tslib: 2.3.1
-    dev: false
-
-  /@any-touch/core/2.1.1:
-    resolution: {integrity: sha512-ATvYREVCPrr2FOL9qlOx7FvsLHSUHrznKlvYbJfLFwLDZbz8OjfB+ByBT3V3S3HFW7l9rIOHPLOj9/W6HOmriQ==}
-    dependencies:
-      '@any-touch/shared': 2.1.1
-      any-event: 2.1.1
-    dev: false
-
-  /@any-touch/doubletap/2.1.1:
-    resolution: {integrity: sha512-icmGIKwgTIuNKZTdn34iNWGf8J/JeM5bNAHp+c7+tJHz/Fgvtwi5YBBcQs4FArypipkIgxMVV5dvD6GbA7Sg3g==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-      '@any-touch/shared': 2.1.1
-      '@any-touch/vector': 2.1.1
-    dev: false
-
-  /@any-touch/pan/2.1.1:
-    resolution: {integrity: sha512-YZXSKbAdTw5BByFR+ItdywiGg6eSlUQb3Tic3NhUQSfg9CNMn3VFJFucMiPPR2px+iUpZSEoUtaBOmaecdOnRA==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-      '@any-touch/shared': 2.1.1
-    dev: false
-
-  /@any-touch/pinch/2.1.1:
-    resolution: {integrity: sha512-WbbuCwAMO3pPGrTnTKawdwJzOtPwvVlJZnVL815oJGCH8Sro8Vf4RE0rXhnmWETtcbarYYvMVZY1qMOhwJkdXg==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-    dev: false
-
-  /@any-touch/press/2.1.1:
-    resolution: {integrity: sha512-AFFqdgNdAFNx86GSPq9TN9TJV9f9yE9cvHaEGZYW75U0iiUMVZHre7FLvate+CI1Vp3CGzfh0KevXst8glSRfw==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-      '@any-touch/shared': 2.1.1
-    dev: false
-
-  /@any-touch/rotate/2.1.1:
-    resolution: {integrity: sha512-Sq5QTP1I5kzxB3prTHq3LotE3t7jg/fIWsavdfQwAkTR/c2garxDOwvVjJ+xcP36zLCT+2tMxVXCqToEmWKx5Q==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-    dev: false
-
-  /@any-touch/shared/2.1.1:
-    resolution: {integrity: sha512-72u0AR+pBCQVdopjWOQn5gLcj3/D4llZxWLE6zFICMu0kJXAIS71ou3MJY/8aCs1GyIVMdENEbai4M4ehy8neg==}
-    dev: false
-
-  /@any-touch/swipe/2.1.1:
-    resolution: {integrity: sha512-y/DVQG+F7SEkErrZyhG8sblC2z3ANosL6O5sDLZIFc13xh0/wwhah/KT6VcsFTrK/bsfCgPF+vR4PflMoEhrlw==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-      '@any-touch/shared': 2.1.1
-    dev: false
-
-  /@any-touch/tap/2.1.1:
-    resolution: {integrity: sha512-ztSwNp9gPOE9XnWKux/zwy6jTtThhwoNgWLVkMqOhtdEYMqGIaV5s4uyGOUIKQJuiEN9Ptpwp8AeH9sUUFlHiA==}
-    dependencies:
-      '@any-touch/compute': 2.1.1
-      '@any-touch/shared': 2.1.1
-      '@any-touch/vector': 2.1.1
-    dev: false
-
-  /@any-touch/vector/2.1.1:
-    resolution: {integrity: sha512-5vxJySzRL+B1r9K2ke43O9IIM2WGM1sZjvJNggGz0/s2UB739MneypOo9hDUB3L4LV2ul3MAGQR/b9SLzqBtbg==}
-    dependencies:
-      '@any-touch/shared': 2.1.1
-    dev: false
 
   /@babel/parser/7.17.9:
     resolution: {integrity: sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==}
@@ -451,27 +375,6 @@ packages:
     dependencies:
       color-convert: 2.0.1
     dev: true
-
-  /any-event/2.1.1:
-    resolution: {integrity: sha512-HIqQ8rPB44C0COYB+jPqklhG0FCIwAA/ng8B2yUZHLxxZm+FY8lovb2pWA+KoXMfFPoQn6bCNaYNfVxOY27TEg==}
-    dependencies:
-      tslib: 2.3.1
-    dev: false
-
-  /any-touch/2.1.1:
-    resolution: {integrity: sha512-9ThIG5oPPOnFmk5j3l1MMChfjdpx9mwHR84A4K2UQjX0PwIYFgsbwzZgl1drckJ28CyEzN1vRZhGpvvfogsHww==}
-    dependencies:
-      '@any-touch/core': 2.1.1
-      '@any-touch/doubletap': 2.1.1
-      '@any-touch/pan': 2.1.1
-      '@any-touch/pinch': 2.1.1
-      '@any-touch/press': 2.1.1
-      '@any-touch/rotate': 2.1.1
-      '@any-touch/swipe': 2.1.1
-      '@any-touch/tap': 2.1.1
-      any-event: 2.1.1
-      tslib: 2.3.1
-    dev: false
 
   /app-builder-bin/4.0.0:
     resolution: {integrity: sha512-xwdG0FJPQMe0M0UA4Tz0zEB8rBJTRA5a476ZawAqiBkMv16GRK5xpXThOjMaEOFnZ6zabejjG4J3da0SXG63KA==}
@@ -2582,10 +2485,6 @@ packages:
     dependencies:
       utf8-byte-length: 1.0.4
     dev: true
-
-  /tslib/2.3.1:
-    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
-    dev: false
 
   /tunnel/0.0.6:
     resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
